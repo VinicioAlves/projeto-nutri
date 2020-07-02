@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Baloo Da 2', cursive, Helvetica, sans-serif;
+	background: linear-gradient(#E0F8E0, #FFFFFF);
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	display: inline-block;
+	width: 550px;
+	margin-left: 35%;
+	font-size: 3em;
+}
+
+header{
+	padding-top: 15px;
+	height: 80px;
+	background: #81F781;
+}
+
+h2{
+	margin-left: 10px;
+	display: inline-block;
+}
+
+h3{
+	margin: 5px;
+	float: right;
+	display: inline-block;
+}
+
+h3 a{
+	text-decoration: none;
+}
+
+h3 a:hover{
+	color: #FF8000;
+}
+
+#container{
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+img{
+	width: 80%;
+	align-content: center;
+}

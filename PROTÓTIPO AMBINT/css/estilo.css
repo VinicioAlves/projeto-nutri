@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Baloo Da 2', cursive, Helvetica, sans-serif;
+}
+
+#topo{
+	background: url(../img/frutas.jpg) no-repeat;
+	/*background: radial-gradient(#DF7401, #FAAC58);*/
+	padding: 50px 100px 50px 750px;
+	text-align: right;
+}
+
+#topo p{
+	font-size: 1.5em;
+}
+
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	text-align: center;
+	background: #D8D8D8;
+}
+
+h3{
+	margin: 10px;
+}
+
+.botaologin{
+	color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 3px;
+	width: 170px;
+	height: 30px;
+	background: linear-gradient(90deg, #58D3F7, #0040FF);
+	/*background: radial-gradient(#81DAF5, #0101DF);*/
+}
+
+.botaologin:hover{
+	cursor: pointer;
+	background: linear-gradient(90deg, #00BFFF, #0000FF);
+
+	
+}
+
+.botaoteste{
+	color: white;
+	font-size: 1.6em;
+	border: none;
+	border-radius: 10px;
+	width: 400px;
+	height: 50px;
+	background: #088A08;
+}
+
+.botaoteste:hover{
+	margin-right: 10px;
+	background: #088A08;
+	cursor: pointer;
+	box-shadow: 10px 10px 10px black;
+	transition: 0.3s;
+}
+
+iframe{
+	border-radius: 10px;
+}
+.video{
+	text-align: center;
+}
+
+#pacientes{
+	background: linear-gradient(115deg, #21610B, #A9F5A9);
+	padding: 50px 200px 50px 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.caixa{
+	border-radius: 4px;
+	box-shadow: 1px 1px 2px black;
+	text-align: center;
+	margin-left: 65px;
+	margin-right: 65px;
+	width: 300px;
+	height: 300px;
+	background: rgb(169, 245, 169, 0.3);
+}
+
+i{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+#nutricionistas{
+	padding: 50px 200px 50px 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 350px;
+	background: url(../img/agua.png) no-repeat;
+}
+
+footer{
+	padding-left: 400px;
+	padding-right: 400px;
+	background: #D8D8D8;
+	text-align: center;
+}
+
+footer h2{
+	text-align: center;
+	background: #D8D8D8;
+}
+
+footer i{
+	margin: 30px;
+}
+
+.face{
+	color: rgb(58, 85, 159);
+}
+
+.twitter{
+	color: rgb(94, 169, 221);
+}
+
+.whats{
+	color: rgb(44, 183, 66);
+}
+
+.insta{
+	border-radius: 10px;
+	background: linear-gradient(45deg, #FBCF6B, #E1163D, #7E3AB1);
+}
+
+footer a{
+	color: white;
+}
+

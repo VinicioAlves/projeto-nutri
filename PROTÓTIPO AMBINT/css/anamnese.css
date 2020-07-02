@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Baloo Da 2', cursive, Helvetica, sans-serif;
+	background: linear-gradient(#E0F8E0, #FFFFFF);
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	display: inline-block;
+	width: 550px;
+	margin-left: 30%;
+	font-size: 3em;
+}
+
+header{
+	padding-top: 15px;
+	height: 80px;
+	background: #81F781;
+}
+
+h2{
+	margin-left: 10px;
+	display: inline-block;
+}
+
+h3{
+	margin: 5px;
+	float: right;
+	display: inline-block;
+}
+
+h3 a{
+	text-decoration: none;
+}
+
+h3 a:hover{
+	color: #FF8000;
+}
+
+
+#container{
+	padding-top: 25px;
+	width: 40%;
+	margin: auto;
+}
+
+label.nome, label.sobrenome, label.idade{
+	font-size: 1.2em;
+	margin-right: 43%;
+}
+
+label{
+	font-size: 1.2em;
+}
+
+input[type="text"]{
+	border: none;
+	border-bottom: 1px solid black;
+	border-left: 3px solid #01DF3A;
+	width: 96%;
+	height: 25px;
+}
+
+input.nome, input.sobrenome{
+	height: 25px;
+	width: 46%;
+}
+
+input.idade{
+	margin-right: 150px;
+	height: 30px;
+	width: 15%;
+}
+
+input.sexo{
+	margin-left: 30px;
+}
+
+input.submit{
+	color: white;
+	font-size: 1.6em;
+	border: none;
+	border-radius: 5px;
+	background: #01DF3A;
+	margin-top: 50px;
+	width: 300px;
+	height: 45px;
+	margin-left: 30%;
+}
+
+input.submit:hover{
+	cursor: pointer;
+	background: #04B431;
+}
+
+select{
+	margin-left: 10px;
+	width: 80px;
+	height: 30px;
+}
+
+/*
+form{
+	border: 1px solid red;
+}*/

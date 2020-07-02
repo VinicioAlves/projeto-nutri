@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Baloo Da 2', cursive, Helvetica, sans-serif;
+	background: linear-gradient(#E0F8E0, #FFFFFF);
+}
+
+h1{
+	font-family: Helvetica, sans-serif;
+	display: inline-block;
+	width: 550px;
+	margin-left: 35%;
+	font-size: 3em;
+}
+
+header{
+	padding-top: 15px;
+	height: 80px;
+	background: #81F781;
+}
+
+h2{
+	margin-left: 10px;
+	display: inline-block;
+}
+
+header h3{
+	margin: 5px;
+	float: right;
+	display: inline-block;
+}
+
+header h3 a{
+	text-decoration: none;
+}
+
+header h3 a:hover{
+	color: #FF8000;
+}
+
+form{
+	padding-top: 30px;
+	width: 60%;
+	margin: auto;
+}
+
+.centralizar{
+	text-align: center;
+}
+
+input[type="date"]{
+	border-radius: 10px;
+	border: 1px solid green;
+	margin-top: 10px;
+	height: 30px;
+	width: 150px;
+}
+
+input[type="date"]:hover{
+	background: #D8F6CE;
+}
+
+.azul{
+	color: #0101DF;
+}
+
+.amarelo{
+	color: #FE9A2E;
+}
+
+.vermelho{
+	color: #FF0000;
+}
+
+table a{
+	padding-left: 5px;
+	color: black;
+}
+
+table a:hover{
+	font-size: 1.3em;
+	transition: 0.2s;
+}
+
+table{
+	margin-top: 30px;
+}
+
+th{
+	background: #31B404;
+}
+
+td{
+	font-size: 1.1em;
+	background: #A9F5A9;
+	height: 40px;
+}
+
+.refeicao{
+	text-align: center;
+}
+
+i{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+input[type="text"]{
+	height: 99%;
+	width: 97%;
+}
+
+
+
+input.submit{
+	color: white;
+	font-size: 1.6em;
+	border: none;
+	border-radius: 5px;
+	background: #01DF3A;
+	margin-top: 50px;
+	width: 300px;
+	height: 45px;
+	margin-left: 40%;
+}
+
+input.submit:hover{
+	cursor: pointer;
+	background: #04B431;
+}

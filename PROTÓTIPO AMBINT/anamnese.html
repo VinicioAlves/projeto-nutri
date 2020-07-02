@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/anamnese.css">
+	<title>Formulário Anamnese</title>
+</head>
+<body>
+
+	<header>
+		<a href="index.html"><h2>AMBINT</h2></a>
+		<h1>Formulário Anamnese</h1>
+
+		<h3><a href="diario.html">Diario alimentar</a></h3>
+		<h3><a href="plano alimentar.html">Plano alimentar </a> |</h3>
+		<h3><a href="anamnese.html">Anamnese </a> |</h3>
+	</header>
+
+	<!-- inicio formulario -->
+	<div id="container">
+		<form>
+			<label class="nome">Nome</label><label class="nome">Sobrenome</label><br>
+			<input class="nome" type="text" name="nome">
+			<input class="sobrenome" type="text" name="sobrenome"><br><br>
+
+			<label class="idade">Idade</label><label>Sexo</label><br>
+			<input class="idade" type="number" name="idade">
+			<label><input type="radio" name="sexo" id="masculino">Masculino</label>
+			<label><input class="sexo" type="radio" name="sexo" id="feminino">Feminino</label><br><br><br><br>
+
+			<label>Já se consultou antes com algum nutricionista? 
+					Se sim, quais dificuldades encontrou?</label>
+			<input type="text" name="dificuldades"><br><br><br>
+
+			<label>Qual sua motivação para agendar essa consulta?</label>
+			<input type="text" name="motivacao"><br><br><br>
+
+			<label>Qual seu objetivo?</label>
+			<input type="text" name="objetivo"><br><br><br>
+
+			<label>Histórico médico pessoal e de familiares próximos:</label>
+			<input type="text" name="historico"><br><br><br>
+
+			<label>Exames recentes:</label>
+			<input type="text" name="exames"><br><br><br>
+
+			<label>Faz uso de algum medicamento ou suplemento?
+			Qual e qual dosagem?</label>
+			<input type="text" name="medicamentos"><br><br><br>
+
+			<label>Quanto consome de água por dia?</label>
+			<select name="quantidade">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+
+			<select name="tipo">
+				<option>Copo</option>
+				<option>Garrafinha 500ml</option>
+				<option>Garrafinha 1Lt</option>
+			</select>
+			<br><br><br>
+
+			<label>Tem alergia a algum alimento? Qual?</label>
+			<input type="text" name="alergia"><br><br><br>
+
+			<label>Tem aversão a algum alimento? Qual?</label>
+			<input type="text" name="aversao"><br><br><br>
+
+			<label>Faz quantas refeições por dia?</label><br>
+			<select>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>Mais de 6</option>
+			</select>
+			<br><br><br>
+
+			<label>Costuma comer fora? 
+			Que tipo de restaurante e com que frequência?</label>
+			<input type="text" name="fora"><br><br><br>
+
+			<label>Quem é responsável pelas compras em sua casa?</label>
+			<input type="text" name="compras"><br><br><br>
+
+			<label>E pelo preparo das comidas?</label>
+			<input type="text" name="preparo"><br><br>
+
+			<input class="submit" type="submit" name="cadastrar">
+		</form>
+	</div>
+
+	<br><br><br><br>
+	
+
+</body>
+</html>
